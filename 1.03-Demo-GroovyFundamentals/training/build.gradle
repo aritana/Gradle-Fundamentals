@@ -1,0 +1,13 @@
+task groovy {}
+
+def foo = 6.5
+
+def doubleIt(n){
+	n + n
+}
+
+foo = 5
+
+println "doubleIt($foo) =  ${doubleIt(foo)}"
+
+
